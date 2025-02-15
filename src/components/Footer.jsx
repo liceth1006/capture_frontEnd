@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-background-secondary-light dark:bg-background-secondary-dark transition-all duration-500 rounded-t-xl">
+    <footer className="bg-background-secondary-light dark:bg-background-secondary-dark transition-all duration-500 rounded-t-xl mt-5">
       <div className="mx-auto max-w-7xl px-6 py-10 rounded-2xl">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 border-t border-gray-300 pt-6">
           <h2 className="text-text-light dark:text-text-dark text-center text-lg sm:text-xl md:text-2xl lg:text-3xl">
