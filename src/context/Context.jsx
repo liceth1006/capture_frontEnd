@@ -30,6 +30,10 @@ export function CaptureProvider({ children }) {
         icon: 'info',
         title: 'Recurso duplicado',
         text: 'Esta URL ya está guardada.',
+        confirmButtonColor: '#C8FF00',
+        customClass: {
+          confirmButton: 'swal-confirm-button',
+        }
       });
     }
   };
@@ -105,6 +109,7 @@ export function CaptureProvider({ children }) {
         icon: 'error',
         title: 'Error al generar el ZIP',
         text: 'Ocurrió un error al procesar las capturas.',
+        
       });
     } finally {
       setLoading(false);
