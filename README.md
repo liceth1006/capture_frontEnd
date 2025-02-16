@@ -36,7 +36,7 @@ npm run dev
 - ✅ **Soporte de temas:** Personalizado según el equipo.
 
 
-## Backend
+## ➡️ Backend
 https://github.com/liceth1006/capture_backend.git 
 
 ## 📝 Comandos útiles
