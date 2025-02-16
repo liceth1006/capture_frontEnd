@@ -1,5 +1,7 @@
 # Frontend - React, Vite, Tailwind
 
+![screenzip](https://screenzip.vercel.app/screenzip.jpg)
+
 👉 Visítala aquí: https://screenzip.vercel.app
 
 ## 📌 Descripción
