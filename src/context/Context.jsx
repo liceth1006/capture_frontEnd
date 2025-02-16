@@ -99,16 +99,23 @@ export function CaptureProvider({ children }) {
           text: '🚫 No se realizó ninguna descarga.',
           timer: 2000,
           showConfirmButton: false,
+          customClass: {
+            confirmButton: 'swal-confirm-button', 
+            cancelButton : 'swal-confirm-button'
+          }
         });
       }
 
-      console.log('✅ ZIP preparado correctamente');
     } catch (error) {
       console.error('❌ Error al generar el ZIP:', error);
       Swal.fire({
         icon: 'error',
         title: 'Error al generar el ZIP',
         text: 'Ocurrió un error al procesar las capturas.',
+        customClass: {
+          confirmButton: 'swal-confirm-button', 
+          cancelButton : 'swal-confirm-button'
+        }
         
       });
     } finally {
@@ -166,17 +173,23 @@ export function CaptureProvider({ children }) {
           text: '🚫 No se realizó ninguna descarga.',
           timer: 2000,
           showConfirmButton: false,
-          
+          customClass: {
+            confirmButton: 'swal-confirm-button', 
+            cancelButton : 'swal-confirm-button'
+          }
         });
       }
 
-      console.log('✅ ZIP preparado correctamente');
     } catch (error) {
       console.error('❌ Error al generar el ZIP:', error);
       Swal.fire({
         icon: 'error',
         title: 'Error al generar el ZIP',
         text: 'Ocurrió un error al procesar las capturas.',
+        customClass: {
+          confirmButton: 'swal-confirm-button', 
+          cancelButton : 'swal-confirm-button'
+        }
       });
     } finally {
       setLoading(false);
