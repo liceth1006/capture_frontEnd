@@ -1,5 +1,7 @@
 # Frontend - React, Vite, Tailwind
 
+👉 Visítala aquí: https://screenzip.vercel.app
+
 ## 📌 Descripción
 Este proyecto frontend, desarrollado con **React**, **Vite** y **Tailwind CSS**, consume un servicio de captura de pantallas en formatos PNG y PDF, gestionando capturas localmente y permitiendo su descarga en formato ZIP.
 
@@ -34,6 +36,9 @@ npm run dev
 - ✅ **Soporte de temas:** Personalizado según el equipo.
 
 
+## Backend
+https://github.com/liceth1006/capture_backend.git 
+
 ## 📝 Comandos útiles
 - Iniciar proyecto: `npm run dev`
 - Construir: `npm run build`
@@ -41,6 +46,11 @@ npm run dev
 ## 📞 Contacto
 - Desarrollado por: **Liceth Olmos**  
 - 📧 Contacto: [https://www.licetholmos.com/] 
+
+
+
+
+
 
 Currently, two official plugins are available:
 
